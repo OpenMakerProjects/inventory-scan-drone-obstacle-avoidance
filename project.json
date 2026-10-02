@@ -1,0 +1,21 @@
+{
+  "id": 862,
+  "title": "Inventory Scan Drone Obstacle Avoidance",
+  "repository_slug": "inventory-scan-drone-obstacle-avoidance",
+  "category": "Drones",
+  "platform": "Jetson Orin Nano",
+  "platform_family": "python",
+  "difficulty": "Intermediate",
+  "estimated_hours": 32,
+  "connectivity": "LTE",
+  "components": [
+    "barometer",
+    "GPS module",
+    "LiDAR"
+  ],
+  "scope": "Build a drones prototype that uses barometer, GPS module, LiDAR to avoid nearby obstacles during slow flight. Include setup instructions, a circuit diagram, tested firmware, and sample output.",
+  "key_deliverable": "Obstacle Avoidance demonstration with repeatable test steps",
+  "mode": "interactive_monitor",
+  "entrypoint": "src/main.py",
+  "roadmap_source": "openmaker-2100-project-roadmap.xlsx"
+}
